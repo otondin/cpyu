@@ -58,23 +58,6 @@ class Process(object):
     # state_time_blocked = None
     # state_time_destroyed = None
 
-# try:
-#     sys.argv[0]
-# except NameError:
-#     print('You need input on first argument the number of processes to simulate!')
-# else:
-#     process_total = sys.argv[0]
-
-# try:
-#     sys.argv[1]
-# except NameError:
-#     print('You need input on second argument the delayt time to watch the simulating running!')
-# else:
-#     delay_time = sys.argv[1]
-
-# print "Numbers os arguments: ", len(sys.argv)
-# print "Argument list: ", str(sys.argv)
-# print "Argument list: ", str(sys.argv[2])
 
 # Declarating basic control variables
 process_total = 200
